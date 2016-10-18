@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/li"
+    android:orientation="horizontal"
+
+    tools:context="com.example.l400.task3.MainActivity">
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:id="@+id/fragments"
+        android:name="com.example.l400.task3.myfragments"
+        tools:layout = "@layout/fragments"
+        ></fragment>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:id="@+id/detailcontanier"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

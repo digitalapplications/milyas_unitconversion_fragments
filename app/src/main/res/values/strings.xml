@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task3</string>
+    <string-array name="value">
+        <item>inches</item>
+        <item>meter</item>
+        <item>kilometer</item>
+        <item>centimeter</item>
+     <item>milimeter</item>
+        <item>mile</item>
+    </string-array>
+    <string-array name="two">
+        <item>inches</item>
+        <item>meter</item>
+    </string-array>
+</resources>
